@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #5a0448;
+    text-align: center;
+}
+h1 {
+    display: inline-block;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 65px;
+}
+h1:hover{
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 65px;
+    text-shadow: 0px 2px 15px blue;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto auto;
+    height: 90vh;
+    width: 100vw ;
+    background-color: #5a0448;
+    justify-content: center;
+    align-items: center;
+}
+.centre-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 40px 0;
+    justify-content: space-between;
+    min-width: 435px;
+    min-height: 290px;
+    background-color: rgb(186, 202, 150);
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height:45px ;
+    width:420px ;
+}
+.select select{
+    height: 25px;
+    width: 52px;
+    padding: 0 0 0 2px;
+}
+input{
+    border-radius: 5px;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 400;
+    box-shadow: none;
+}
+.firstname{
+    display: flex;
+    align-items: center;
+}
+.name input{
+    padding: 0 7px;
+    position: relative;
+    height:25px;
+    width: 160px;
+}
+.lastname{
+    display: flex;
+    align-items: center;
+}
+.houseno{
+    display: flex;
+    align-items: center;  
+}
+
+.street{  
+    display: flex;
+    align-items: center;
+}
+
+.area{  
+    display: flex;
+    align-items: center;
+}
+
+.city{  
+    display: flex;
+    align-items: center;
+}
+.sameinputs{
+    padding: 0 7px;
+    position: relative;
+    height:25px;
+    width: 405px;
+    box-shadow: none;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    
+}
+.button button{
+    width: 85px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 400;
+}
+.button button:hover{
+    width: 85px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+}

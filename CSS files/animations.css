@@ -1,0 +1,51 @@
+@keyframes appear{
+    0% {
+      opacity: 0;
+      
+    }
+    100% {
+      opacity: 1;
+    }
+}
+@keyframes appear2{
+    0% {
+      opacity: 0;
+      
+    }
+    80% {
+      opacity: 0.7;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.img{
+  animation: appear 2s ease-in-out;
+}
+.letter-content{
+  animation: appear2 4s ease-in-out;
+}
+.name{
+  animation: appear2 4s ease-in-out;
+}
+.subject{
+  animation: appear2 6s ease-in-out;
+}
+.list{
+  animation: appear 6s ease-in;
+}
+.term{
+  animation: appear 6s ease-in;
+}
+.sincerely{
+  animation: appear 4s ease-in;
+}
+.signatureimg{
+  animation: appear2 8s ease-in;
+}
+.minerva , .deputy{
+  animation: appear2 4s ease-out;
+}
+.bottomcenter{
+  animation: appear 2s ease-in; 
+}
